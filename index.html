@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon-16x16.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main data-theme="dark">
+        <header class=" flex align-center justify-between">
+            <a href="https://github.com/Paulo-Borges" target="_blank">Calc<span>Borges</span></a>
+            <button id="themeSwitcher">Switch Theme Dark/Light</button>
+        </header>
+        <input type="text" id="input">
+        <div id="keys">
+            <button id="clear">C</button>
+            <button class="charkey" data-value=" (">(</button>
+            <button class="charkey" data-value=" )">)</button>
+            <button class="charkey" data-value=" /">/</button>
+            <button class="charkey" data-value="7">7</button>
+            <button class="charkey" data-value="8">8</button>
+            <button class="charkey" data-value="9">9</button>
+            <button class="charkey" data-value=" *">*</button>
+            <button class="charkey" data-value="4">4</button>
+            <button class="charkey" data-value="5">5</button>
+            <button class="charkey" data-value="6">6</button>
+            <button class="charkey" data-value=" -">-</button>
+            <button class="charkey" data-value="1">1</button>
+            <button class="charkey" data-value="2">2</button>
+            <button class="charkey" data-value="3">3</button>
+            <button class="charkey" data-value=" +">+</button>
+            <button class="charkey" data-value="0">0</button>
+            <button class="charkey" data-value=" .">.</button>
+            <button class="charkey" data-value=" %">mod</button>
+            <button id="equal">=</button>
+            
+        </div>
+        <section class="flex align-center justify-between">
+            <button id="copyToClipboard">Copy</button>
+            <input type="text" id="result" disabled>
+        </section>
+
+        <footer>
+            <a href="https://www.linkedin.com/in/paulo-borges-de-almeida-b543b3242/" target="_blank">Borges <span>2024</span> &copy;</a>
+        </footer>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
